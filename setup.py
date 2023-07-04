@@ -46,7 +46,7 @@ required = [
     "torchmetrics",
     "pillow>=5.3.0",
     "onnx",
-    "onnxruntime",
+    "onnxruntime-gpu==1.6.0",
     "cnstd>=1.2.3",
 ]
 extras_require = {
