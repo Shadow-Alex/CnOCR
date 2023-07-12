@@ -31,8 +31,7 @@ doc:
 
 
 package:
-	rm -rf build
-	python setup.py sdist bdist_wheel
+	pip install -e .
 
 VERSION = 2.2.3.1
 upload:
